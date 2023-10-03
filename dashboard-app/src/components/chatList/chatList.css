@@ -1,0 +1,65 @@
+.chat-list-section {
+  border-right: 1px solid #444;
+  height: 100vh;
+}
+
+.search-icon {
+  border-right: none;
+}
+
+.input-search:hover,
+.input-search:focus {
+  border-bottom: 2px solid blueviolet;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+
+.input-search {
+  border-left: 1px solid #aaa;
+  border: 1px solid #444;
+  border-radius: 4px;
+}
+
+.input {
+  border-radius: 4px;
+  border-right: 1px solid #aaa;
+  outline: none;
+}
+
+.chat-list-main {
+  overflow-y: scroll;
+  height: 70vh;
+}
+
+.chat-box:hover {
+  transition: all 0.5s ease-in-out;
+  border-top: 2px solid #aaa;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+img {
+  object-fit: cover;
+}
+
+::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+  height: 4px;
+}
+
+/* Handle (thumb) */
+::-webkit-scrollbar-thumb {
+  /* Color of   background: #888;the thumb */
+  background: #aaa;
+  border-radius: 5px; /* Rounded corners of the thumb */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color on hover */
+}
+
+/* Track when the handle is grabbed (clicked and dragged) */
+::-webkit-scrollbar-thumb:active {
+  background: #333;
+}

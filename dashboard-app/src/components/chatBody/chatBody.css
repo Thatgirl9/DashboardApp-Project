@@ -1,0 +1,28 @@
+.chatBody-section {
+  height: 100vh;
+  /* overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scroll-padding: 0 0 100px 0; */
+}
+
+.chat-header {
+  border-bottom: 1px solid #aaa;
+}
+
+.chat-body {
+  overflow-y: scroll;
+  height: 63vh;
+}
+
+.text-area {
+  border: 1px solid #aaa;
+}
+
+.text-area:active,
+.text-area:focus {
+  outline: none;
+  border-top: 2px solid blueviolet;
+  transition: all 0.5s ease-in-out;
+  /* border: 1px solid #aaa; */
+}

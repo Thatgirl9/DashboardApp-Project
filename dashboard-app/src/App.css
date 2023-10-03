@@ -1,0 +1,9 @@
+#root {
+  max-width: 1280px;
+  scroll-behavior: none;
+}
+
+.body-section {
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+}

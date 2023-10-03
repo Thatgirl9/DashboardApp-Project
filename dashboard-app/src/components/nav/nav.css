@@ -1,0 +1,25 @@
+.nav-section {
+  /* border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px; */
+  color: whitesmoke;
+  height: 100vh;
+}
+
+.nav-div {
+  height: 90vh;
+}
+
+.nav-list:hover {
+  background-color: blueviolet;
+  border-radius: 7px;
+  box-shadow: inset 0 1px 3px -1px rgba(253, 253, 253, 0.9);
+}
+
+.nav-number {
+  border: 1px solid #aaa;
+}
+
+.second-nav-list {
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+}
