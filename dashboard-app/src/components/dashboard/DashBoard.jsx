@@ -24,7 +24,7 @@ function Dashboard() {
   // };
 
   return (
-    <section className="flex relative">
+    <section className="flex flex-1 relative">
       <NavBar />
       <ChatList
         chatsData={chatsData}

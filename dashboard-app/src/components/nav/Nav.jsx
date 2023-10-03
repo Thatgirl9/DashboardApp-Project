@@ -9,6 +9,11 @@ function NavBar() {
     setShowSettingsDiv(!showSettingsDiv);
   };
 
+  const handleClick = () => {
+    // Redirect the user to another website when clicked
+    window.location.href = "https://b29quaapay-stakes.quaapay.ng/";
+  };
+
   return (
     <section className="nav-section bg-black w-1/5 p-5 ">
       <div className="flex items-center cursor-pointer">
@@ -25,7 +30,10 @@ function NavBar() {
               <p>Messages</p>
               <p className="nav-number rounded-lg px-2">12</p>
             </div>
-            <div className="nav-list flex justify-between items-center p-2 cursor-pointer ">
+            <div
+              className="nav-list flex justify-between items-center p-2 cursor-pointer "
+              onClick={handleClick}
+            >
               <p>Balances</p>
             </div>
           </div>
