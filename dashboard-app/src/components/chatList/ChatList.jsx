@@ -85,9 +85,9 @@ function ChatList({ onSelectChat }) {
     setSearchQuery(e.target.value);
   };
 
-  const addNewChat = () => {
-    setIsEditingName(true);
-  };
+  // const addNewChat = () => {
+  //   setIsEditingName(true);
+  // };
 
   const saveNewChat = () => {
     // Create a new chat object with the edited name and add it to the chatsData state

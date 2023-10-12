@@ -31,12 +31,12 @@
   height: 70vh;
 }
 
-.chat-box:hover {
+/* .chat-box:hover {
   transition: all 0.5s ease-in-out;
   border-top: 2px solid #aaa;
   border-top-right-radius: 7px;
   border-top-left-radius: 7px;
-}
+} */
 
 img {
   object-fit: cover;
